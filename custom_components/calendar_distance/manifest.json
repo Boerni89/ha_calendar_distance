@@ -1,0 +1,10 @@
+{
+  "domain": "calendar_distance",
+  "name": "Kalender-Distanz Sensor",
+  "documentation": "https://github.com/Boerni89/calendar_distance",
+  "dependencies": [],
+  "codeowners": [],
+  "requirements": ["requests>=2.23.0,<3", "pytz", "icalendar>=4.1.0,<5"],
+  "iot_class": "cloud_polling",
+  "version": "0.1.0"
+}

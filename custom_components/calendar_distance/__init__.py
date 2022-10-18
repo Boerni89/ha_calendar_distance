@@ -1,0 +1,1 @@
+"""The Calendar-Distance-Sensor integration."""
