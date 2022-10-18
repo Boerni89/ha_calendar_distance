@@ -1,0 +1,6 @@
+sensor:
+  - platform: calendar_distance
+    name: Kalender-Entfernung
+    home: 'Platz der Republik 1, Berlin'
+    api_key: geoapify.com-API-KEY
+    url: LINK-ZU-ICS-KALENDER
