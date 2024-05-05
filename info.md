@@ -9,7 +9,7 @@ Der Sensor wird wie folgend in der configuration.yaml angelegt
 ```yaml
 sensor:
   - platform: calendar_distance
-    name: Kalender-Entfernung                # Name des Sensors
+    name: Kalender-Distanz                   # Name des Sensors
     home: 'Platz der Republik 1, Berlin'     # Heimataddresse
     api_key: geoapify.com-API-KEY            # Geoapify-API-Key
     url: LINK-ZU-ICS-KALENDER                # Link des öffentlich zugänglichen ICS-Kalenders
