@@ -165,7 +165,7 @@ class CalendarDistance(SensorEntity):
         if error == '' and self.day_switch == 'Sunset':
             try:
                 url_SUNSET = f'https://api.sunrise-sunset.org/json?lat={str(location_DEPARTURE[0])}&lng={str(location_DEPARTURE[1])}&date={currDateTime.date().strftime("%Y-%m-%d")}&formatted=0'
-                response_SUNSET = requests.request("GET", url_SUNSET, headers=headers, data=payload, verify=False)
+                response_SUNSET = requests.request("GET", url_SUNSET, headers=headers, data=payload, verify=True)
                 response_SUNSET_json = json.loads(response_SUNSET.text)
                 daySwitchTime = datetime.datetime.strptime(response_SUNSET_json['results']['sunset'], '%Y-%m-%dT%H:%M:%S%z').astimezone(pytz.timezone(self.time_zone))
             except Exception as e:
