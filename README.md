@@ -4,7 +4,7 @@ Berücksitigt werden Termine ab Sonnenuntergang bis zum nächsten Tag. Alternati
 
 Für die Ermittlung der Routen-Distanz wird ein API-Key von [Geoapify](https://www.geoapify.com/) benötigt.
 
-Der Sensor wird wie folgend angelegt
+Der Sensor wird wie folgend in der config.yaml angelegt
 
 ```yaml
 sensor:
