@@ -14,7 +14,7 @@ from homeassistant.components.sensor import (
 )
 from homeassistant.const import (
     ATTR_ATTRIBUTION,
-    LENGTH_KILOMETERS,
+    UnitOfLength,
     CONF_NAME,
     CONF_API_KEY,
     CONF_URL,
@@ -86,7 +86,7 @@ def setup_platform(
 
 class CalendarDistance(SensorEntity):
     """Representation of the Calendar-Distance-Sensor."""
-    _attr_native_unit_of_measurement = LENGTH_KILOMETERS
+    _attr_native_unit_of_measurement = UnitOfLength.KILOMETERS
     _attr_device_class = None
     _attr_state_class = SensorStateClass.MEASUREMENT
     _attr_extra_state_attributes = {ATTR_ATTRIBUTION: ATTRIBUTION}
