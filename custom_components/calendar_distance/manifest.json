@@ -6,5 +6,6 @@
   "dependencies": [],
   "requirements": ["requests>=2.23.0", "pytz>=2022.6", "icalendar>=4.1.0"],
   "iot_class": "cloud_polling",
-  "version": "2024.5.0"
+  "issue_tracker": "https://github.com/Boerni89/ha_calendar_distance/issues",
+  "version": "2024.5.1"
 }
